@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Wayfarer Contribution Management Layout
-// @version      0.0.2
+// @version      0.0.3
 // @description  Improves the layout of the Contribution Management page
 // @namespace    https://github.com/tehstone/wayfarer-addons/
 // @downloadURL  @downloadURL  https://github.com/tehstone/wayfarer-addons/raw/main/wayfarer-contribution-management-layout.user.js
@@ -400,14 +400,16 @@ function init() {
         detailsContainer.style.display = 'flex';
         detailsContainer.style.flexDirection = 'row';
 
+        const winWidth = window.innerWidth;
+        const divWidth = (winWidth > 768 && winWidth < 1024) || winWidth > 1344 ? 50 : 100;
         const mapDiv = document.createElement('div');
         mapDiv.textContent = 'Location';
         mapDiv.classList.add('map-column');
-        mapDiv.style.flex = '1 1 50%';
+        mapDiv.style.flex = `1 1 ${divWidth}%`;
 
         const infoBoxDiv = document.createElement('div');
         infoBoxDiv.classList.add('details-column');
-        infoBoxDiv.style.flex = '1 1 50%';
+        infoBoxDiv.style.flex = `1 1 ${divWidth}%`;
 
         const header = document.createElement('div');
         header.textContent = 'Current Wayspot Details';
