@@ -7,6 +7,7 @@
 // @updateUrl    https://github.com/tehstone/wayfarer-addons/raw/main/wayfarer-contribution-management-layout.user.js
 // @homepageURL  https://github.com/tehstone/wayfarer-addons/
 // @match        https://wayfarer.nianticlabs.com/*
+// @match        https://opr.ingress.com/*
 // @run-at       document-start
 // ==/UserScript==
 
