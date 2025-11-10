@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name         Wayfarer Nomination Status History
-// @version      1.3.3
+// @version      1.3.4
 // @description  Track changes to nomination status
 // @namespace    https://github.com/tehstone/wayfarer-addons/
 // @downloadURL  https://github.com/tehstone/wayfarer-addons/raw/main/wayfarer-nomination-status-history.user.js
 // @homepageURL  https://github.com/tehstone/wayfarer-addons/
 // @match        https://wayfarer.nianticlabs.com/*
+// @match        https://opr.ingress.com/*
 // @run-at       document-start
 // @grant        GM_info
 // ==/UserScript==
