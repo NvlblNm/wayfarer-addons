@@ -8,7 +8,6 @@
 // @match        https://wayfarer.nianticlabs.com/*
 // @match        https://opr.ingress.com/*
 // @run-at       document-start
-// @grant        GM_info
 // ==/UserScript==
 
 // Copyright 2024 tehstone, bilde, Tntnnbltn
